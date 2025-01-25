@@ -1,21 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://clairvoyancemedium.github.io/Voyancepartelephonepaschere.github.io/</loc>
-        <lastmod>2024-12-09</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://clairvoyancemedium.github.io/Voyancepartelephonepaschere.github.io/tarifs</loc>
-        <lastmod>2024-12-09</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://clairvoyancemedium.github.io/Voyancepartelephonepaschere.github.io/contact</loc>
-        <lastmod>2024-12-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
+  
+  <!-- Page d'accueil -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/favorite-complete-psychic-reading-by-email.github.io/</loc>
+    <lastmod>2024-01-01</lastmod> <!-- Date de la dernière modification -->
+    <changefreq>daily</changefreq> <!-- Fréquence de mise à jour -->
+    <priority>1.0</priority> <!-- Priorité maximale pour la page d'accueil -->
+  </url>
+
+  <!-- Page de tarifs -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/favorite-complete-psychic-reading-by-email.github.io/tarifs</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Page de contact -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/favorite-complete-psychic-reading-by-email.github.io/contact</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Page des témoignages -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/favorite-complete-psychic-reading-by-email.github.io/temoignages</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Page des conditions générales -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/favorite-complete-psychic-reading-by-email.github.io/conditions-generales</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Page de politique de confidentialité -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/favorite-complete-psychic-reading-by-email.github.io/politique-de-confidentialite</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Pages de services -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/favorite-complete-psychic-reading-by-email.github.io/services/voyance-amour</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://clairvoyancemedium.github.io/favorite-complete-psychic-reading-by-email.github.io/services/voyance-travail</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://clairvoyancemedium.github.io/favorite-complete-psychic-reading-by-email.github.io/services/voyance-finances</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Pages de blog (si applicable) -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/favorite-complete-psychic-reading-by-email.github.io/blog</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://clairvoyancemedium.github.io/favorite-complete-psychic-reading-by-email.github.io/blog/comment-choisir-un-voyant</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://clairvoyancemedium.github.io/favorite-complete-psychic-reading-by-email.github.io/blog/5-conseils-pour-une-voyance-reussie</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Pages de FAQ -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/favorite-complete-psychic-reading-by-email.github.io/faq</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
