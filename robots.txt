@@ -1,42 +1,50 @@
-# Indique aux robots que toutes les pages peuvent être explorées, sauf restrictions spécifiées
+# robots.txt pour https://clairvoyancemedium.github.io/favorite-complete-psychic-reading-by-email.github.io/
+
 User-agent: *
-Disallow: /admin/
-Disallow: /tmp/
-Disallow: /private/
+Allow: /                # Autorise l'accès à toutes les pages du site
+Disallow: /private/     # Bloque l'accès aux répertoires sensibles
+Disallow: /admin/       # Bloque l'accès aux pages d'administration
+Disallow: /cgi-bin/     # Bloque l'accès aux scripts CGI
+Disallow: /tmp/         # Bloque l'accès aux fichiers temporaires
+Disallow: /logs/        # Bloque l'accès aux fichiers de logs
+Disallow: /backup/      # Bloque l'accès aux sauvegardes
 
-# Bloquer des URL avec paramètres inutiles pour l'indexation
-Disallow: /*?debug=true
-Disallow: /*?preview=true
+# Autoriser l'exploration des fichiers essentiels pour le SEO
+Allow: /*.css$          # Autorise les fichiers CSS
+Allow: /*.js$           # Autorise les fichiers JavaScript
+Allow: /*.png$          # Autorise les images PNG
+Allow: /*.jpg$          # Autorise les images JPG
+Allow: /*.webp$         # Autorise les images WebP
+Allow: /*.woff2$        # Autorise les polices WOFF2
+Allow: /*.woff$         # Autorise les polices WOFF
 
-# Permettre les fichiers nécessaires au bon affichage et fonctionnement
-Allow: /css/
-Allow: /js/
-Allow: /images/
+# Blocage des paramètres d'URL inutiles pour éviter le contenu dupliqué
+Disallow: /*?*          # Bloque les URLs avec des paramètres de requête
 
-# Référencement des ressources multimédias
-Allow: *.png
-Allow: *.jpg
-Allow: *.webp
-Allow: *.css
-Allow: *.js
+# Sitemap : Indiquez l'emplacement de votre sitemap pour aider les moteurs de recherche
+Sitemap: https://clairvoyancemedium.github.io/favorite-complete-psychic-reading-by-email.github.io/sitemap.xml
 
-# Fournir le chemin du fichier sitemap pour une meilleure indexation
-Sitemap: https://www.clairvoyancemedium.com/sitemap.xml
-
-# Autorisation pour les robots Google et Bing pour maximiser les campagnes publicitaires
+# Configuration spécifique pour Googlebot
 User-agent: Googlebot
-Allow: /
-User-agent: AdsBot-Google
-Allow: /
+Allow: /                # Autorise Googlebot à explorer tout le site
+Disallow: /private/     # Bloque l'accès aux répertoires sensibles pour Googlebot
+
+# Configuration spécifique pour Bingbot
 User-agent: Bingbot
-Allow: /
+Allow: /                # Autorise Bingbot à explorer tout le site
+Disallow: /private/     # Bloque l'accès aux répertoires sensibles pour Bingbot
 
-# Bloquer les robots nuisibles ou non désirés
-User-agent: BadBot
-Disallow: /
-User-agent: EvilScraper
-Disallow: /
+# Configuration spécifique pour les robots indésirables (spam, scrappers, etc.)
+User-agent: AhrefsBot
+Disallow: /             # Bloque AhrefsBot (si non désiré)
 
-# Empêcher l'exploration des fichiers sensibles
-Disallow: /config/
-Disallow: /backup/
+User-agent: MJ12bot
+Disallow: /             # Bloque MJ12bot (si non désiré)
+
+User-agent: SemrushBot
+Disallow: /             # Bloque SemrushBot (si non désiré)
+
+User-agent: YandexBot
+Disallow: /             # Bloque YandexBot (si non désiré)
+
+# Fin du fichier robots.txt
